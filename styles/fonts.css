@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'BNR';
+    src: url(../fonts/BebasNeue-Regular.ttf);
+}
+@font-face {
+    font-family: 'OSB';
+    src: url(../fonts/OpenSans-Bold.ttf);
+}
+@font-face {
+    font-family: 'OSEB';
+    src: url(../fonts/OpenSans-ExtraBold.ttf);
+}
+@font-face {
+    font-family: 'OSR';
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: 'OSSB';
+    src: url(../fonts/OpenSans-SemiBold.ttf);
+}

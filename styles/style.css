@@ -1,0 +1,342 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    font-family: 'OSR';
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header__partner {
+    background: url(../images/bg.jpg) no-repeat center /cover;
+    height: 967px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__partner-logo {
+    margin-top: 40px;
+}
+
+.header__partner-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header__partner-title {
+    color: rgb(255, 255, 255);
+    font-family: 'BNR';
+    font-size: 60px;
+    font-weight: 400;
+    line-height: -1px;
+    letter-spacing: 5.71px;
+}
+
+.header__partner-text {
+    color: rgb(255, 255, 255);
+    font-family: 'OSSB';
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.header__partner-scroll {
+    font-family: 'OSSB';
+    color: rgb(255, 255, 255);
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 5.71px;
+    margin-bottom: 70px;
+}
+
+.header__nav {
+    box-sizing: border-box;
+    border: 1px solid rgb(230, 230, 230);
+    background: rgb(255, 255, 255);
+}
+
+.header__nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__nav-list {
+    display: flex;
+    gap: 30px;
+    margin: 25px 0;
+}
+
+.header__nav-link {
+    color: rgb(72, 85, 91);
+    font-family: 'OSSB';
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    transition: color 300ms;
+}
+
+.header__nav-link:hover {
+    color: rgb(0, 164, 229);
+}
+
+.main__about-title {
+    margin-top: 60px;
+    margin-bottom: 90px;
+    display: flex;
+    justify-content: center;
+    color: rgb(72, 85, 91);
+    font-family: 'OSB';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 2.31px;
+}
+
+.main__about {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main__about-left-title {
+    font-family: 'OSB';
+    font-size: 20px;
+    line-height: 27px;
+    max-width: 405px;
+    width: 100%;
+}
+
+.main__about-left-span {
+    color: rgb(0, 164, 229);
+}
+
+.main__about-left-text {
+    color: rgb(72, 85, 91);
+    font-family: 'OSR';
+    font-size: 13px;
+    line-height: 23px;
+    width: 405.08px;
+    margin-top: 30px;
+}
+
+.main__about-right-link {
+    margin-left: 15px;
+}
+
+.main__services-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 120px;
+}
+
+.main__services-title {
+    color: rgb(72, 85, 91);
+    font-family: 'OSB';
+    font-size: 18px;
+    line-height: 25px;
+    border-bottom: 2px solid rgb(0, 164, 229);
+    padding-bottom: 10px;
+}
+
+.main__services-text {
+    width: 405.4px;
+    color: rgb(72, 85, 91);
+    font-size: 11px;
+    line-height: 19px;
+}
+
+.main__services-link {
+    color: rgb(255, 255, 255);
+    font-family: 'OSB';
+    font-size: 13px;
+    line-height: 18px;
+    background: rgb(0, 164, 229);
+    padding: 11px 30px;
+}
+
+.main__services-bottom {
+    margin-top: 75px;
+}
+
+.main__services-items {
+    display: flex;
+}
+
+.main__services-item {
+    box-sizing: border-box;
+    border: 1px solid rgb(230, 230, 230);
+    background: rgb(255, 255, 255);
+    margin-right: 30px;
+    padding: 40px 23px;
+}
+
+.main__services-item-title {
+    color: rgb(72, 85, 91);
+    font-family: 'OSB';
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 25px;
+    margin-bottom: 13px;
+}
+
+.main__bottom {
+    background: url(../images/bottom.jpg) no-repeat center /cover;
+    height: 498px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+}
+
+.main__bottom-title {
+    color: rgb(72, 85, 91);
+    font-family: 'OSB';
+    font-size: 30px;
+    line-height: 36px;
+    width: 350px;
+    text-align: center;
+}
+
+.main__bottom-link {
+    color: rgb(255, 255, 255);
+    font-family: 'OSB';
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 18px;
+    padding: 10px 25px;
+    background: rgb(0, 164, 229);
+}
+
+.main__newsletter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(23, 24, 25);
+    gap: 60px;
+}
+
+.main__newsletter-title {
+    color: rgb(255, 255, 255);
+    font-family: 'OSB';
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 0.85px;
+}
+
+.main__form {
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    margin: 30px 0;
+}
+
+.main__form-text {
+    max-width: 250px;
+    width: 100%;
+    color: rgb(72, 85, 91);
+    font-size: 14px;
+    line-height: 19px;
+    border: none;
+    outline: none;
+    padding: 10px 17px;
+}
+
+.main__form-btn {
+    max-width: 150px;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-family: 'OSB';
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 18px;
+    background: rgb(0, 164, 229);
+    border: none;
+    outline: none;
+}
+
+.footer {
+    background: rgb(20, 26, 32);
+}
+
+.footer__items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.footer__title {
+    color: rgb(255, 255, 255);
+    font-size: 11px;
+    line-height: 15px;
+    margin-top: 38px;
+    margin-bottom: 20px;
+    letter-spacing: 0.85px;
+}
+
+.footer__company img {
+    margin-bottom: 15px;
+}
+
+.footer__text {
+    width: 250px;
+    color: rgb(255, 255, 255);
+    font-size: 11px;
+    line-height: 19px;
+    margin-bottom: 25px;
+    letter-spacing: 0.85px;
+}
+
+.footer__society img {
+    margin-right: 30px;
+}
+
+.footer__links {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__link {
+    color: rgb(255, 255, 255);
+    font-family: 'OSSB';
+    font-size: 11px;
+    line-height: 25px;
+    letter-spacing: 0.85px;
+}
+
+.footer__contact-text,
+.footer__tel,
+.footer__mail {
+    color: rgb(255, 255, 255);
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.85px;
+    width: 250px;
+    margin-bottom: 25px;
+}
+
+.footer__contact-links {
+    display: flex;
+    flex-direction: column;
+}
